@@ -6,11 +6,7 @@
 
 package pedroalcantaradasilva;
 
-
 import java.util.Scanner;
-
-public class Pedroalcantaradasilva {
-
 
 class EstruturaAvancada  //Criamos aqui nossa classe EstruturaAvancada
    {
@@ -105,3 +101,4 @@ class VetorAvancadoApp
         System.out.println("Não encontrei nenhum nome iniciado com a letra:= " + searchKey);
       }  // fim do método main()
    }  //fim da classe VetorAvancadoApp
+
