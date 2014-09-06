@@ -40,13 +40,7 @@ public class Usuario {
         } else {
             System.out.println(estrutura.displayUnico(estrutura.findLinear(nome)));
         }
-        System.out.println("Digte um nome para deletar");
-        nome = scanner.nextLine();
-        if (!estrutura.delete(nome)) {
-            System.out.println("Nome não encontrado");
-        } else {
-            System.out.println("Deletado com sucesso!");
         }
-        System.out.println(estrutura.display());
-    }
 }
+       
+

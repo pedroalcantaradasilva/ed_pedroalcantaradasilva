@@ -36,6 +36,9 @@ public Jogador(String n, int id, double altura)
    public int getIdade() {
         return idade;
     }
+   public double getAltura() {
+        return altura;
+    }
 
     public String displayJogador() {
         return "\nNome: " + nome + "  Idade: " + idade + "  Altura: " + altura;
