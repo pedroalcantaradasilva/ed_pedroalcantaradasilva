@@ -1,15 +1,32 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+/* Joaquim é Paleontólogo e precisa de um software que armazene informações sobre os 
+animais que ele encontra em suas expedições. 
+As informações que ele precisa armazenar são:
+Cor e Tamanho  */
 
 package e3;
 
 /**
  *
- * @author Aluno
+ * Pedro Alcantara
  */
 public class Animal {
+    private String cor;
+    private double tamanho;   
+
+    public Animal(String cor, double tamanho) {
+        this.cor = cor;
+        this.tamanho = tamanho;
+    }
+
+    public String getCor() {
+        return cor;
+    }
+
+    public double getTamanho() {
+        return tamanho;
+    }
     
+    public String display(){
+        return "Cor: "+ cor +" Tamanho: "+ tamanho;
+    }
 }
